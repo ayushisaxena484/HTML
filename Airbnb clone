@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="first">
+    <nav>
+        <div class=nav-bar>
+        <span class="logo">
+                <i class="fab fa-airbnb"></i>
+                <span class="title">airbnb</span>
+        </span>
+        <span id="links-1">
+            <a href="https://www.airbnb.co.in/" class="links">Places to Stay</a>
+            <a href="https://www.airbnb.co.in/" class="links">Experiences</a>
+            <a href="https://www.airbnb.co.in/" class="links">Online Experiences</a>
+        </span>
+        <span id="other-links">
+            <a href="https://www.airbnb.co.in/" class="links2">Become a Host</a>
+            <span id="globe"><i class="far fa-globe"></i></span>
+            <span id="profile" class="circle">
+                <i class="fal fa-bars"></i>
+                <i class="far fa-user-circle"></i>
+            </span>
+        </span>
+        </div>
+    </nav>
+
+    <section id="search">
+        <div class="location">
+            <span>Location</span>
+            <span></span>
+            <div class="sub" id="small">Where are you going</div>
+        </div>
+        <div class="location">
+            <span>Check in</span>
+            <span></span>
+            <div class="sub">Add dates</div>
+        </div>
+        <div class="location">
+            <span>Check out</span>
+            <span></span>
+            <div class="sub">Add dates</div>
+        </div>
+        <div>
+            <span>Guests</span>
+            <span id="guests"><i class="fas fa-search"></i></span>
+            <div class="sub">Add guest</div>
+        </div>
+    </section>
+    <div id="image-1">
+        <img src="image.jpg" alt="#" id="image">
+        <span id="text">Not sure where to go? Perfect.</span>
+        <button id="btn">i'm flexible</button>
+    </div>
+    </section>
+    <div class="text1" id="text1">Inspiration for your next trip</div>
+</body>
+</html>
